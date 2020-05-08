@@ -8,19 +8,79 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
+  <nav class="fixed-nav-bar">
+    <ul>
+      <li> <a href="#aboutMe"> About Me </a> </li>
+      <li> <a href="#portfolioGallery"> Portfolio Gallery </a> </li>
+      <li> <a href= "#contact"> Contact</a> </li>
+      <li> <a href="socialMedia"> Social Media</a></li>
+        </ul>
+        </nav>
 
   <body>
-    <h1>Image gallery example</h1>
+    <h1>Lauren Bunting</h1>
+    <h2 id="aboutMe"> About Me </h2>
+    <img src="images/selfie.jpg" height=480px class="center">
+    <p>  Hey there. I am a junior graphic design major at Arkansas State University
+      working towards earning my Bachelor of Fine Arts in Graphic Design.  I love being at A-State, and doing what I do.
+    Thanks for being here! Check out some of my work below.  </p>
+    <hr>
+    <h2 id="portfolioGallery"> Portfolio Gallery</h2>
 
     <div class="full-img">
-      <img class="displayed-img" src="images/pic1.jpg">
+      <img class="displayed-img" src="images/mag.jpg" width=640px height=480px>
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
     </div>
 
     <div class="thumb-bar">
-
-
+      <section>
+      <img src="images/painting.jpg" onclick="showImage('painting.jpg');">
+      <img src="images/vincowcupmockup.jpg" onclick="showImage('vincowcupmockup.jpg');">
+      <img src="images/ceramics.jpg" onclick="showImage('ceramics.jpg');">
+      <img src="images/skate.jpg" onclick="showImage('skate.jpg');">
+  </hr>
+<br>
     </div>
-    
+    <h2 id="contact"> Contact </h2>
+    <form action="Contact Form" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="username"
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user email">
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user message"></textarea>
+              </li>
+              </ul>
+              </form>
+              <br>
+              <br>
+    <li class="button-submit">
+      <button type="submit">Submit</button>
+      </li>
+<br>
+<br>
+      <h2 id="socialMedia"> Social Media </h2>
+        <a href="https://www.instagram.com/ahueoflauren_/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/lauren.bunting.7" target="_blank"> Facebook</a>
+
+
+<br>
+<br>
+<footer>
+  <p> Lauren Bunting </p>
+  <p> Contact information:
+    <br>
+    <strong>Email:</strong> lauren.bunting@smail.astate.edu
+    <br>
+    <strong>Phone Number:</strong> 501-353-8645 </p>
+  </footer>
     <script src="main.js"></script>
   </body>
 </html>
