@@ -1,6 +1,44 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: gill sans, sans-serif;
   text-align: center;
+}
+
+h2 {
+  font-family: coronetscript, cursive;
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+  margin: 0 2px;
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  font-family: gill sans, sans-serif;
+  display: block;
+}
+
+a:hover {
+  background-color: #C6E9FF;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -15,9 +53,50 @@ body {
   height: 480px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(197, 84, 24, 0.19);
+}
+button {
+  border: 0;
+  background: rgba(197, 84, 34, 0.83);
+  text-shadow: 0.5px 0.5px 0.5px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 1px;
+  left: 1px;
+}
+
+.button-submit {
+  border: 0;
+  background: rgba(197,84,34,0.83);
+  text-shadow: 0.5px 0.5px 0.5px white;
+  border: 1px solid #999;
+  position: relative;
+  top: 60%;
+  left: 20%;
+  right: 20%;
+  bottom: 5%;
+}
+
 .thumb-bar img {
+  position: relative;
   display: block;
   width: 20%;
   float: left;
   cursor: pointer;
+  height: 159.4px;
+  width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
 }
