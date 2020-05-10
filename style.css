@@ -86,11 +86,11 @@ button {
 
 .thumb-bar img {
   position: relative;
-  display: block;
+  display: inline-block;
   width: 20%;
   float: left;
   cursor: pointer;
-  height: 159.4px;
+  height: 155px;
   width: auto;
 }
 
