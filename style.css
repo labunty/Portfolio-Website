@@ -64,7 +64,7 @@ body {
 
 button {
   border: 0;
-  background: rgb(100,54.9,41.2);
+  background: #fcece6;
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
   position: absolute;
@@ -75,7 +75,7 @@ button {
 
 .button-submit {
   border: 0;
-  background: rgb(100,54.9,41.2);
+  background: #fcece6;
   text-shadow: 0.5px 0.5px 0.5px white;
   border: 1px solid #999;
   position: relative;
