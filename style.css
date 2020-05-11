@@ -1,11 +1,12 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Modak', sans-serif;
   text-align: center;
+  color: #fcb39d;
 }
-
 h2 {
-  font-family: gill sans, sans-serif;
+  font-family:'Baloo Da 2',sans-serif;
   text-align: center;
+  color: #fcb39d;
 }
 
 li{
@@ -16,15 +17,19 @@ li{
 
 a{
   text-decoration: none;
-  color: salmon;
+  color: black;
   padding: 2px;
-  font-family: gill sans, sans-serif;
+  font-family: 'Baloo Da 2',sans-serif;
   display: block;
+  color: #fcb39d;
+}
+
+a:hover {
+  background-color: #ffdeba;
 }
 
 .fixed-nav-bar {
-  position: absolute;
-  text-align: left;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -36,12 +41,14 @@ ul{
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Baloo Da 2',sans-serif;
+  color: #fcb39d;
 }
 
 body {
-  text-align: center;
   width: 640px;
   margin: 0 auto;
+  background-color: #EEFFA1;
 }
 
 .full-img {
@@ -62,18 +69,19 @@ body {
 
 button {
   border: 0;
-  background: #fcece6;
+  background: rgba(150,150,150,0.6);
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
   top: 2px;
   left: 2px;
+  font-family: 'Baloo Da 2',sans-serif;
+  color: #000282;
 }
-
 .button-submit {
   border: 0;
-  background: #fcece6;
+  background: rgba(197,84,34,0.83);
   text-shadow: 0.5px 0.5px 0.5px white;
   border: 1px solid #999;
   position: relative;
@@ -83,13 +91,10 @@ button {
   bottom: 5%;
 }
 
-
 .thumb-bar img {
-  position: relative;
   display: block;
   width: 20%;
   float: left;
-  height: 155px;
   cursor: pointer;
 }
 
@@ -98,4 +103,9 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 62%;
+}
+
+p {
+  font-family: 'Baloo Da 2',sans-serif;
+  color: #000282;
 }
