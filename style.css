@@ -24,6 +24,7 @@ a{
 
 .fixed-nav-bar {
   position: absolute;
+  text-align: left;
   top: 0;
   left: 0;
   width: 100%;
