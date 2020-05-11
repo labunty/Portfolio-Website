@@ -28,6 +28,7 @@ a:hover {
 
 .fixed-nav-bar {
   position: fixed;
+  text-align: bottom;
   top: 0;
   left: 0;
   width: 100%;
