@@ -1,29 +1,32 @@
 var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
 
-var btn = document.querySelector('button');
+btn = document.querySelector('button');
 var overlay = document.querySelector('.overlay');
 
-for(let i = 1; i <= 5; i++) {
+/* Looping through images */
+for (let i = 1; i < 6; i++) {
   var newImage = document.createElement('img');
-  newImage.setAttribute('src', 'images/blackbear album cover original.jpg' + i + '.jpg');
-  newImage.setAttribute('src', 'images/the avett brothers album cover.jpg' + i + '.jpg');
-  newImage.setAtribute('src', 'images/rex orange county front album cover.jpg' + i + '.jpg');
-  newImage.setAttribute('src', 'images/the lumineers album cover.jpg' + i + '.jpg');
+  let pathToImg = 'images/pic' + i + '.jpg'
+  newImage.setAttribute('src', pathToImg);
   thumbBar.appendChild(newImage);
-  }
+
+  newImage.addEventListener('click', switchImage);
 }
 
-btn.onclick = function() {
-  var btnClass = btn.getAttribute('class');
-  if(btnClass === 'dark') {
+function switchImage(e) {
+  displayedImage.setAttribute('src', e.target.getAttribute('src'));
+}
+
+/* Wiring up the Darken/Lighten button */
+btn.onclick = function () {
+  if(btn.getAttribute('class') === 'dark') {
     btn.setAttribute('class', 'light');
-    btn.textContent = 'Lighten';
-    overlay.style.backgroundColor = 'rgba(197, 84, 34, 0.53)';
-  }
-  else {
-    btn.setAttribute('class','dark');
-    btn.textContent = 'Darken';
-    overlay.style.backgroundColor = 'rgba(197, 84, 34, 0.38)';
+    btn.innerHTML = 'Lighten';
+    overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+  } else {
+    btn.setAttribute('class', 'dark');
+    btn.innerHTML = 'Darken';
+    overlay.style.backgroundColor = "rgba(0,0,0,0)";
   }
 }

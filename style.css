@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-  font-family: coronetscript, cursive;
+  font-family: gill sans, sans-serif;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ li{
 
 a{
   text-decoration: none;
-  color: black;
+  color: salmon;
   padding: 2px;
   font-family: gill sans, sans-serif;
   display: block;
