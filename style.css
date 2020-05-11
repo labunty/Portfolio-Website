@@ -1,5 +1,5 @@
 h1 {
-  font-family: gill sans, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   text-align: center;
 }
 
@@ -59,17 +59,18 @@ body {
   left: 0;
   width: 640px;
   height: 480px;
-  background-color: rgba(197, 84, 24, 0.19);
+  background-color: rgba(0,0,0,0);
 }
+
 button {
   border: 0;
-  background: rgba(197, 84, 34, 0.83);
-  text-shadow: 0.5px 0.5px 0.5px white;
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
-  top: 1px;
-  left: 1px;
+  top: 2px;
+  left: 2px;
 }
 
 .button-submit {
@@ -84,14 +85,12 @@ button {
   bottom: 5%;
 }
 
+
 .thumb-bar img {
-  position: relative;
-  display: inline-block;
+  display: block;
   width: 20%;
   float: left;
   cursor: pointer;
-  height: 155px;
-  width: auto;
 }
 
 .center {
