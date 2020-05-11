@@ -22,10 +22,6 @@ a{
   display: block;
 }
 
-a:hover {
-  background-color: #fcece6;
-}
-
 .fixed-nav-bar {
   position: absolute;
   top: 0;
