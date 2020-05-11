@@ -25,7 +25,7 @@ font-family: 'Barlow Condensed', sans-serif;
 }
 
 a:hover {
-  background-color: #ffdeba;
+  background-color: #fad9ca;
 }
 
 .fixed-nav-bar {
@@ -42,7 +42,7 @@ ul{
   display: flex;
   flex-direction: column;
   font-family: 'Barlow Condensed', sans-serif;
-  color: #c96857;
+  color: #406873;
 }
 
 body {
@@ -77,7 +77,7 @@ button {
   top: 2px;
   left: 2px;
 font-family: 'Barlow Condensed', sans-serif;
-  color: #000282;
+  color: #406873;
 }
 .button-submit {
   border: 0;
@@ -107,5 +107,5 @@ font-family: 'Barlow Condensed', sans-serif;
 
 p {
   font-family: 'Barlow Condensed', sans-serif;
-  color: #000000;
+  color: #406873;
 }
